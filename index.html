@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Момчян</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/jQuery/jquery.min.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<section>
+    <nav class="navbar">
+        <div class="name">
+            <h2>Гор Момчян</h2>
+            <h3>Frontend developer</h3>
+        </div>
+        <ul class="navbar__menu">
+            <li><a class="main" href="/" data-link>Главная</a></li>
+            <li><a href="/resume" data-link>Резюме</a></li>
+            <li><a class="contacts" href="/contacts" data-link>Контакты</a></li>
+        </ul>
+    </nav>
+</section>
+
+<!-- app -->
+<div id="app"></div>
+
+<!-- modal window -->
+<section>
+    <div class="popup" id="popup1">
+        <div class="popup-content">
+            <div class="popup-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div>
+                <p id="my_message_email"></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+<section>
+    <div class="footer">
+        <div  class="footer__block">
+            <i class="fas fa-phone-square-alt"></i>
+            <div>
+                <h4>Звоните</h4>
+                <p>+7 (911) 492 02 23</p>
+            </div>
+        </div>
+        <div class="footer__block">
+            <i class="fas fa-envelope"></i>
+            <div>
+                <h4>Пишите</h4>
+                <p>momchyan2297@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer__block">
+            <i class="fas fa-plus-circle"></i>
+            <div>
+                <h4>Заходите</h4>
+                <a href="https://vk.com/korotkoeimyazanyatoo"><i class="fab fa-vk"></i></a>
+                <a href="https://github.com/Cactus322?tab=repositories"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer__block">
+            <i class="far fa-copyright"></i>
+            <div>
+                <h4>© 2021 Момчян Гор</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="module" src="src/scripts/script.js"></script>
+</body>
+</html>

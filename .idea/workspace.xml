@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5d65f91-51d9-4486-affd-942338ffe70f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1s88K26FxhFgQLRxHm6EXeQo6uC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/GitHub/work/First" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\OpenServer\domains\localhost\src\php" />
+      <recent name="L:\OpenServer\domains\localhost\src\scripts\post-email" />
+      <recent name="L:\OpenServer\domains\localhost" />
+      <recent name="L:\OpenServer\domains\localhost\src" />
+      <recent name="L:\OpenServer\domains\localhost\s" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d65f91-51d9-4486-affd-942338ffe70f" name="Default Changelist" comment="" />
+      <created>1620242788429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620242788429</updated>
+      <workItem from="1620242789459" duration="901000" />
+      <workItem from="1620306374041" duration="964000" />
+      <workItem from="1620308023914" duration="1289000" />
+      <workItem from="1620311532848" duration="12293000" />
+      <workItem from="1620491420090" duration="29000" />
+      <workItem from="1620491451890" duration="19421000" />
+      <workItem from="1620518325059" duration="776000" />
+      <workItem from="1620585858032" duration="9351000" />
+      <workItem from="1620667330350" duration="3693000" />
+      <workItem from="1620675809363" duration="3445000" />
+      <workItem from="1620751468454" duration="3230000" />
+      <workItem from="1620761278481" duration="2107000" />
+      <workItem from="1620766514421" duration="4000" />
+      <workItem from="1620834866933" duration="544000" />
+      <workItem from="1620848450914" duration="1047000" />
+      <workItem from="1620921642744" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620754610097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620754610097" />
+  </component>
+</project>

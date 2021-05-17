@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "PTSerif";
+    src: url("./fonts/PTSerif-Regular.ttf");
+    src: url("./fonts/PTSerif-Regular.ttf") format("ttf"),
+    url("./fonts/PTSerif-Regular.woff") format("woff"),
+    url("./fonts/PTSerif-Regular.svg") format("svg");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans-Regular.ttf");
+    src: url("./fonts/OpenSans-Regular.ttf") format("ttf"),
+    url("./fonts/OpenSans-Regular.woff") format("woff"),
+    url("./fonts/OpenSans-Regular.svg") format("svg");
+    font-style: normal;
+}
+
+h1 {
+    font-family: PTSerif;
+    margin: 0;
+    font-size: 80px;
+    cursor: default;
+}
+
+h2 {
+    font-family: PTSerif;
+    margin: 0;
+    font-size: 45px;
+    cursor: default;
+}
+
+h3 {
+    font-family: PTSerif;
+    margin: 0;
+    font-size: 25px;
+    cursor: default;
+}
+
+h4 {
+    font-family: OpenSans;
+    margin: 0;
+    font-size: 14px;
+    cursor: default;
+}
+
+p {
+    font-family: OpenSans;
+    margin: 0;
+    font-size: 14px;
+    cursor: default;
+}
+
+a {
+    font-family: PTSerif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #535353;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-family: PTSerif;
+        margin: 0;
+        font-size: 160px;
+        cursor: default;
+    }
+
+    h2 {
+        font-family: PTSerif;
+        margin: 0;
+        font-size: 90px;
+        cursor: default;
+    }
+
+    h3 {
+        font-family: PTSerif;
+        margin: 0;
+        font-size: 50px;
+        cursor: default;
+    }
+
+    h4 {
+        font-family: OpenSans;
+        margin: 0;
+        font-size: 28px;
+        cursor: default;
+    }
+
+    p {
+        font-family: OpenSans;
+        margin: 0;
+        font-size: 28px;
+        cursor: default;
+    }
+}

@@ -1,0 +1,11 @@
+@import "font.css";
+@import "navbar.css";
+@import "content/content.css";
+@import "footer.css";
+@import "fonts/fontawesome-free-5.15.3-web/css/all.css";
+@import "popup/popup.css";
+
+body {
+    margin: 0;
+    background-color: #dee1e9;
+}

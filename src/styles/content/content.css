@@ -1,0 +1,143 @@
+@import "content__resume.css";
+@import "content__contacts.css";
+
+.content {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+}
+
+.content img {
+    width: 500px;
+}
+
+.content h2 {
+    font-weight: normal;
+}
+
+.content p {
+    margin-top: 20px;
+    color: #535353;
+}
+
+.content-div__button {
+    margin: 70px 0;
+}
+
+.content__button {
+    font-family: OpenSans;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 100%;
+    border: none;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.content__button.main {
+    position: relative;
+    background-color: #e83556;
+    padding: 50px 30px;
+}
+
+.content__button.main:hover {
+    background-color: #fff;
+    color: #e83556;
+    box-shadow: inset 0 0 0 3px #e83556;
+}
+
+.content__button.resume {
+    background-color: #61d0d4;
+    margin-left: 20px;
+    padding: 50px 32px;
+}
+
+.content__button.resume:hover {
+    background-color: #fff;
+    color: #61d0d4;
+    box-shadow: inset 0 0 0 3px #61d0d4;
+}
+
+.content__button.contacts {
+    background-color: #ddd440;
+    margin-left: 20px;
+    padding: 50px 24px;
+}
+
+.content__button.contacts:hover {
+    background-color: #fff;
+    color: #ddd440;
+    box-shadow: inset 0 0 0 3px #ddd440;
+}
+
+@media (max-width: 1550px) {
+    .content {
+        margin-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        text-align: center;
+    }
+
+    .content p {
+        margin-top: 20px;
+        color: #535353;
+        text-align: start;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        margin-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        text-align: center;
+    }
+
+    .content img {
+        width: 800px;
+        align-items: center;
+    }
+
+    .content-div__button {
+        margin: 140px 0;
+    }
+
+    .content__button {
+        font-family: OpenSans;
+        text-transform: uppercase;
+        font-size: 28px;
+        border-radius: 100%;
+        border: none;
+        color: #fff;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 500ms ease;
+        cursor: pointer;
+    }
+
+    .content__button.main {
+        position: relative;
+        background-color: #e83556;
+        padding: 100px 60px;
+    }
+
+    .content__button.resume {
+        background-color: #61d0d4;
+        margin-left: 20px;
+        padding: 100px 64px;
+    }
+    .content__button.contacts {
+        background-color: #ddd440;
+        margin-left: 20px;
+        padding: 100px 48px;
+    }
+}

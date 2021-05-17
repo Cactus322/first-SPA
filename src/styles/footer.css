@@ -1,0 +1,119 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 60px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: center;
+    background-color: #28244e;
+}
+
+.footer__block {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    color: #fff;
+}
+
+.footer__block i {
+    color: #00c7ce;
+    font-size: 40px;
+}
+
+.footer__block div i {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 25% 25%;
+        grid-row-gap: 30px;
+        justify-content: center;
+        background-color: #28244e;
+    }
+
+    .footer__block {
+        display: grid;
+        grid-template-columns: 15% 75%;
+        color: #fff;
+    }
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-row-gap: 30px;
+        justify-content: center;
+        background-color: #28244e;
+    }
+}
+
+@media (max-width: 1600px) {
+    .footer {
+        position: relative;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-row-gap: 30px;
+        justify-content: center;
+        background-color: #28244e;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        position: relative;
+        height: 600px;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: block;
+        background-color: #28244e;
+    }
+
+    .footer__block {
+        display: grid;
+        grid-template-columns: 20% 60%;
+        color: #fff;
+        padding-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .footer__block i {
+        color: #00c7ce;
+        font-size: 80px;
+    }
+
+    .footer__block div i {
+        color: #fff;
+        font-size: 40px;
+        margin: 10px 10px 0 0;
+        cursor: pointer;
+    }
+}
